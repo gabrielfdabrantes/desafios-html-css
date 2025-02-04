@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 420px;
+            height: 250px;
+            margin-right: 100px;
+            margin-bottom: 40px;
+            display: inline-block;
+           
+        }
+        thead{
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            width: 350px;
+            height: 55px;
+            
+        }
+        .g{
+            background-color: cornflowerblue;
+            color:white;
+        }
+        .f1{
+            background-color: orangered;
+            color: white;
+        }
+        .f2{
+            background-color:navajowhite;
+            color: white;
+        }
+        .horas {
+            padding: 0px 16px;
+            background-color: rgba(0, 0, 0, 0.609);
+            color: white;
+            font-weight: bold;
+        }
+        #separar {
+            margin-top: 100px;
+        }
+        ol{
+            font-size: 2em;
+            columns: 2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col class="horas">
+        </colgroup>
+        <caption>Semana 1</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="horas">28h</td>
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td>X</td>
+                <td>X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="horas">35h</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="horas">35h</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table>
+        <caption>Semana 2</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td>X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td class="f1">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>  
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Semana 3</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td>X</td>
+                <td>X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f2">X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Semana 4</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Semana 5</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td class="g">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+               
+                
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f1">X</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td>X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td>X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Semana 6</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+               
+                
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td>X</td>
+                <td>X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Semana 7</caption>
+        <thead>
+            <tr>
+                <th>Nomes</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sext</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Gabriel</th>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td class="g">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="g">X</td>
+            </tr>
+            <tr>
+                <th>Func.1</th>
+                <td>X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td class="f1">X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>Func.2</th>
+                <td class="f2">X</td>
+                <td>X</td>
+                <td>X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+                <td class="f2">X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Mês de maio - Isolado Gabriel e F1</caption>
+        <thead>
+            <th>seg</th>
+            <th>ter</th>
+            <th>qua</th>
+            <th>qui</th>
+            <th>sex</th>
+            <th>sáb</th>
+            <th>dom</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td class="f1">01</td>
+                <td class="f1">02</td>
+                <td class="f1">03</td>
+                <td class="f1">04</td>
+            </tr>
+            <tr>
+                <td class="f1">05</td>
+                <td class="f1">06</td>
+                <td class="g">07</td>
+                <td class="g">08</td>
+                <td class="f1">09</td>
+                <td class="f1">10</td>
+                <td class="f1">11</td>
+            </tr>
+            <tr>
+                <td class="f1">12</td>
+                <td class="f1">13</td>
+                <td class="f1">14</td>
+                <td class="g">15</td>
+                <td class="g">16</td>
+                <td class="f1">17</td>
+                <td class="f1">18</td>
+            </tr>
+            <tr>
+                <td class="f1">19</td>
+                <td class="f1">20</td>
+                <td class="f1">21</td>
+                <td class="f1">22</td>
+                <td class="g">23</td>
+                <td class="g">24</td>
+                <td class="g">25</td>
+            </tr>
+            <tr>
+                <td class="f1">26</td>
+                <td class="f1">27</td>
+                <td class="f1">28</td>
+                <td class="f1">29</td>
+                <td class="g">30</td>
+                <td class="g">31</td>
+                <td style="background-color: black;">X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="separar">
+        <caption>Mês de maio - Isolado Gabriel e F2</caption>
+        <thead>
+            <th>seg</th>
+            <th>ter</th>
+            <th>qua</th>
+            <th>qui</th>
+            <th>sex</th>
+            <th>sáb</th>
+            <th>dom</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td class="g">01</td>
+                <td class="g">02</td>
+                <td class="f2">03</td>
+                <td class="f2">04</td>
+            </tr>
+            <tr>
+                <td class="f2">05</td>
+                <td class="f2">06</td>
+                <td class="f2">07</td>
+                <td class="f2">08</td>
+                <td class="g">09</td>
+                <td class="g">10</td>
+                <td class="f2">11</td>
+            </tr>
+            <tr>
+                <td class="f2">12</td>
+                <td class="f2">13</td>
+                <td class="f2">14</td>
+                <td class="f2">15</td>
+                <td class="f2">16</td>
+                <td class="g">17</td>
+                <td class="g">18</td>
+            </tr>
+            <tr>
+                <td class="g">19</td>
+                <td class="f2">20</td>
+                <td class="f2">21</td>
+                <td class="f2">22</td>
+                <td class="f2">23</td>
+                <td class="f2">24</td>
+                <td class="f2">25</td>
+            </tr>
+            <tr>
+                <td class="g">26</td>
+                <td class="g">27</td>
+                <td class="f2">28</td>
+                <td class="f2">29</td>
+                <td class="f2">30</td>
+                <td class="f2">31</td>
+                <td style="background-color: black;">X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="separar">
+        <caption>Mês de maio - Isolado F1 e F2</caption>
+        <thead>
+            <th>seg</th>
+            <th>ter</th>
+            <th>qua</th>
+            <th>qui</th>
+            <th>sex</th>
+            <th>sáb</th>
+            <th>dom</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td class="f1">01</td>
+                <td class="f1">02</td>
+                <td >03</td>
+                <td >04</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>06</td>
+                <td class="f2">07</td>
+                <td class="f2">08</td>
+                <td class="f1">09</td>
+                <td class="f1">10</td>
+                <td>11</td>
+                       </tr>
+            <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td class="f2">15</td>
+                <td class="f2">16</td>
+                <td class="f1">17</td>
+                <td class="f1">18</td>
+            </tr>
+            <tr>
+                <td class="f1">19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td class="f2">23</td>
+                <td class="f2">24</td>
+                <td class="f2">25</td>
+            </tr>
+            <tr>
+                <td class="f1">26</td>
+                <td class="f1">27</td>
+                <td >28</td>
+                <td>29</td>
+                <td class="f2">30</td>
+                <td class="f2">31</td>
+                <td style="background-color: black;">X</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="separar">
+        <caption>Mês de maio - Isolado Gabriel</caption>
+        <thead>
+            <th>seg</th>
+            <th>ter</th>
+            <th>qua</th>
+            <th>qui</th>
+            <th>sex</th>
+            <th>sáb</th>
+            <th>dom</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td style="background-color: black;">X</td>
+                <td class="g">01</td>
+                <td class="g">02</td>
+                <td >03</td>
+                <td >04</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>06</td>
+                <td class="g">07</td>
+                <td class="g">08</td>
+                <td class="g">09</td>
+                <td class="g">10</td>
+                <td>11</td>
+                       </tr>
+            <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td class="g">15</td>
+                <td class="g">16</td>
+                <td class="g">17</td>
+                <td class="g">18</td>
+            </tr>
+            <tr>
+                <td class="g">19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td class="g">23</td>
+                <td class="g">24</td>
+                <td class="g">25</td>
+            </tr>
+            <tr>
+                <td class="g">26</td>
+                <td class="g">27</td>
+                <td >28</td>
+                <td>29</td>
+                <td class="g">30</td>
+                <td class="g">31</td>
+                <td style="background-color: black;">X</td>
+            </tr>
+        </tbody>
+    </table>
+
